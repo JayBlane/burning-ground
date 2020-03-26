@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f6f5f7;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 50px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.report-box-container {
+	display: flex;
+	flex-direction: row;
+	align-items: centre;
+	justify-content: centre;
+	flex-wrap: wrap;
+}
+
+.report-box {
+	background-color: #ffffff;
+	box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	flex: 2;
+	padding: 0 20px 20px;
+	margin: 1%;
+	min-width: 250px;
+	max-width: 350px;
+}
+
+.report-box h5 {
+	text-transform: uppercase;
+}
+
+.head {
+	margin: 24px 0;
+	font-size: 36px;
+	font-weight: 900;
+}
+
+.price sub, .price sup {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+.features-list {
+	padding: 0;
+	list-style-type: none;
+}
+
+.features-list li {
+	font-weight: 100;
+	padding: 12px 0;
+	font-weight: 100;
+}
+
+.report-box-bg-image {
+	background-image: url('https://github.com/JayBlane/burning-ground/blob/master/Gradient-Background-Wallpaper-003-300x585.jpg?raw=true');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+.report-box-bg-image2 {
+	background-image: url('https://github.com/JayBlane/burning-ground/blob/master/4c4d57e5af0abdf36412d6fdd6251978.jpg?raw=true');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+.report-box-bg-image3 {
+	background-image: url('https://github.com/JayBlane/burning-ground/blob/master/4a1fd04bcd5797a3c02e18a86d1b4b01.jpg?raw=true');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+
+.report-box-bg-image4 {
+	background-image: url('https://github.com/JayBlane/burning-ground/blob/master/Neuromancer-seamless-notchless-wallpaper.png?raw=true');
+	background-size: cover;
+	background-position: center center;
+	color: #ffffff;
+}
+.report-box-bg-image .features-list li {
+	border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.report-box-bg-image .btn-primary {
+	background-color: #ffffff;
+	color: #000;
+}
+
